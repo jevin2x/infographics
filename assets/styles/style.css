@@ -179,16 +179,20 @@ footer{
   }
 
   .text h2 {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .text p {
-    font-size: 10px;
+    font-size: 5px;
   }
   header h1{
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
-    left: -58px;
+    left: -40px;
+    top: -200px;
+  }
+  footer{
+    left: -30px;
   }
 }
 
