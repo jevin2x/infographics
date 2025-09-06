@@ -249,3 +249,38 @@ footer{
     font-size: 24px;
   }
 }
+@media (min-width: 2530px) {
+  .row {
+    max-width: 60%;
+    padding: 40px;
+    gap: 50px;
+    
+  }
+
+  .row.left {
+  margin-right: auto;
+  border-radius: 0 500px 500px 0;
+}
+
+.row.right {
+  margin-left: auto;
+  flex-direction: row-reverse;
+  text-align: right;
+  border-radius: 500px 0 0 500px;
+}
+
+
+  .circle {
+    width: 800px;
+    height: 800px;
+  }
+
+  .text h2 {
+    font-size: 75px;
+  }
+
+  .text p {
+    font-size: 24px;
+  }
+}
+
