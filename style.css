@@ -259,28 +259,61 @@ footer{
 
   .row.left {
   margin-right: auto;
-  border-radius: 0 500px 500px 0;
+  border-radius: 0 400px 400px 0;
 }
 
 .row.right {
   margin-left: auto;
   flex-direction: row-reverse;
   text-align: right;
-  border-radius: 500px 0 0 500px;
+  border-radius: 400px 0 0 400px;
+}
+
+header h1{
+  font-size: 100px;
+  position: relative;
+  top: -220px;
+ height: 600px;
+  
 }
 
 
   .circle {
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 600px;
   }
 
   .text h2 {
-    font-size: 75px;
+    font-size: 65px;
+    align-items: center;
   }
 
   .text p {
     font-size: 24px;
   }
+  .left-label {
+  text-align: left;
+  flex: 1;
+    font-size: 70px;   
+}
+
+.right-label {
+  text-align: right;
+  flex: 1;
+  font-size: 78px;       
+}
+footer{
+  background: white;
+  border-radius: 50%;
+   height: 700px;
+    width: 120%;
+    left: -100px;
+   position: relative;
+   top: 250px;
+   
+   
+
+}
+
 }
 
