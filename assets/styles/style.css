@@ -151,6 +151,47 @@ footer{
   color: black;
 }
 
+@media (min-width: 1px) {
+  .row {
+    max-width: 85%;
+    padding: 40px;
+    gap: 50px;
+    
+  }
+
+  .row.left {
+  margin-right: auto;
+  border-radius: 0 300px 300px 0;
+}
+
+.row.right {
+  margin-left: auto;
+  flex-direction: row-reverse;
+  text-align: right;
+  border-radius: 300px 0 0 300px;
+}
+
+
+
+  .circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .text h2 {
+    font-size: 15px;
+  }
+
+  .text p {
+    font-size: 10px;
+  }
+  header h1{
+    font-size: 30px;
+    position: relative;
+    left: -58px;
+  }
+}
+
 @media (min-width: 600px) {
   .row {
     max-width: 85%;
